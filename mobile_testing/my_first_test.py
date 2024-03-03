@@ -23,7 +23,6 @@ capabilities = dict(
 class myFirstTest(unittest.TestCase):
     print ("Start test")
 
-
     def setUp(self) -> None:
 
         self.driver = webdriver.Remote(appium_server_url_local,capabilities)
