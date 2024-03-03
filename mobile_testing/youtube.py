@@ -11,7 +11,6 @@ capabilities = dict(
     platformVersion="34",
     appPackage='com.google.android.youtube',
     appActivity='com.google.android.apps.youtube.app.watchwhile.WatchWhileActivity',
-    newCommandTimeout=120,
     language='en',
     locale='US'
 )
